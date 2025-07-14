@@ -57,46 +57,46 @@ const rules: KarabinerRules[] = [
   },
   ...createHyperSubLayers({
     spacebar: open(
-      "raycast://extensions/stellate/mxstbr-commands/create-notion-todo"
+      "raycast://extensions/stellate/mxstbr-commands/create-notion-todo",
     ),
     // b = "B"rowse
     b: {
       t: open("https://twitter.com"),
       // Quarterly "P"lan
       p: open("https://mxstbr.com/cal"),
-      y: open("https://news.ycombinator.com"),
+      y: open("https://news.youtube.com"),
       f: open("https://facebook.com"),
       r: open("https://reddit.com"),
-      h: open("https://hashnode.com/draft"),
+      h: open("https://news.ycombinator.com"),
     },
     // o = "Open" applications
     o: {
       1: app("1Password"),
-      g: app("Google Chrome"),
-      c: app("Notion Calendar"),
-      v: app("Zed"),
-      d: app("Discord"),
-      s: app("Slack"),
-      e: app("Superhuman"),
-      n: app("Notion"),
-      t: app("Terminal"),
+      g: app("Ghostty"),
+      c: app("Calendar"),
+      v: app(""),
+      d: app(""),
+      s: app("Safari"),
+      e: app(""),
+      n: app(""),
+      t: app("Warp"),
       // Open todo list managed via *H*ypersonic
       h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
+        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026",
       ),
-      z: app("zoom.us"),
+      z: app("Zed"),
       // "M"arkdown (Reflect.app)
-      m: app("Reflect"),
-      r: app("Reflect"),
+      m: app("Mail"),
+      r: app(""),
       f: app("Finder"),
       // "i"Message
       i: app("Texts"),
-      p: app("Spotify"),
-      a: app("iA Presenter"),
+      p: app(""),
+      a: app(""),
       // "W"hatsApp has been replaced by Texts
-      w: open("Texts"),
+      w: open("Warp"),
       l: open(
-        "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
+        "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink",
       ),
     },
 
@@ -234,11 +234,11 @@ const rules: KarabinerRules[] = [
         ],
       },
       e: open(
-        `raycast://extensions/thomas/elgato-key-light/toggle?launchType=background`
+        `raycast://extensions/thomas/elgato-key-light/toggle?launchType=background`,
       ),
       // "D"o not disturb toggle
       d: open(
-        `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`
+        `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`,
       ),
       // "T"heme
       t: open(`raycast://extensions/raycast/system/toggle-system-appearance`),
@@ -307,22 +307,22 @@ const rules: KarabinerRules[] = [
       c: open("raycast://extensions/thomas/color-picker/pick-color"),
       n: open("raycast://script-commands/dismiss-notifications"),
       l: open(
-        "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink"
+        "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink",
       ),
       e: open(
-        "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
+        "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols",
       ),
       p: open("raycast://extensions/raycast/raycast/confetti"),
       a: open("raycast://extensions/raycast/raycast-ai/ai-chat"),
       s: open("raycast://extensions/peduarte/silent-mention/index"),
       h: open(
-        "raycast://extensions/raycast/clipboard-history/clipboard-history"
+        "raycast://extensions/raycast/clipboard-history/clipboard-history",
       ),
       1: open(
-        "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-1"
+        "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-1",
       ),
       2: open(
-        "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-2"
+        "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-2",
       ),
     },
   }),
@@ -369,6 +369,6 @@ fs.writeFileSync(
       ],
     },
     null,
-    2
-  )
+    2,
+  ),
 );

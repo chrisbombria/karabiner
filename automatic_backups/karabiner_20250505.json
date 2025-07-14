@@ -1804,7 +1804,7 @@
                         "product_id": 4,
                         "vendor_id": 18003
                     },
-                    "ignore": true
+                    "treat_as_built_in_keyboard": true
                 },
                 {
                     "identifiers": {
